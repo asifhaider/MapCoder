@@ -3,7 +3,7 @@ openai
 numpy
 pandas
 python-dotenv
-pyyml
+pyyaml
 tenacity
 tiktoken
 tqdm
@@ -12,4 +12,5 @@ jsonlines
 astunparse
 pyarrow
 google-generativeai
-accelerate
+# accelerate
+# ollama

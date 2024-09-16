@@ -3,7 +3,8 @@ from datetime import datetime
 from constants.paths import *
 
 from models.Gemini import Gemini
-from models.OpenAI import OpenAIModel
+# from models.OpenAI import OpenAIModel
+from models.Llama3 import Llama3
 
 from results.Results import Results
 
@@ -23,7 +24,7 @@ parser.add_argument(
         "HumanEval", 
         "MBPP", 
         "APPS",
-        "xCodeEval", 
+        "XCode", 
         "CC", 
     ]
 )
@@ -47,6 +48,7 @@ parser.add_argument(
         "ChatGPT",
         "GPT4",
         "Gemini",
+        "Llama3",
     ]
 )
 parser.add_argument(
