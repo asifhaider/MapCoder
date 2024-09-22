@@ -11,9 +11,9 @@ start_time = time.time()
 
 class Llama3(BaseModel):
     def __init__(self, temperature=0):
-        self.model_name = "llama3.1"
+        self.model_name = "llama3.1:70b"
         self.temperature = temperature
-        self.output_file = "Non-stream-ollama-python-test.txt"
+        self.output_file = "Trying-mapcoder.txt"
 
 
     # def prompt(self, processed_input):

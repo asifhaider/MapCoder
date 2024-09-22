@@ -77,6 +77,8 @@ class MapCoder(BaseStrategy):
             try:
                 root = ET.fromstring('<root>\n' + response + '\n</root>')
             except:
+                print("\n\nError in parsing xml: ", response + "\n\nDone")
+
                 root = ET.fromstring('<root>\n' + response)
         return self.xml_to_dict(root)
 
